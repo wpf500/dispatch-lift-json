@@ -1,8 +1,8 @@
 import org.specs2.mutable._
 
 object LiftJsonSpec extends Specification {
-  import dispatch._
-  import dispatch.liftjson.Js._
+  import dispatch.classic._
+  import dispatch.classic.liftjson.Js._
   import net.liftweb.json.JsonAST._
 
   val test = :/("technically.us") / "test.json"

@@ -1,5 +1,5 @@
-package dispatch.liftjson
-import dispatch._
+package dispatch.classic.liftjson
+import dispatch.classic._
 
 import net.liftweb.json._
 import JsonDSL._
